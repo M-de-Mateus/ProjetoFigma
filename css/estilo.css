@@ -126,6 +126,7 @@ div#roxo {
     font-family: Roboto;
     align-items: center;
     margin-bottom: 50px;
+    width: 100%;
 }
 
 .icone {
@@ -196,4 +197,5 @@ footer {
     text-align: center;
     font-family: 'Roboto Condensed';
     padding-top: 15px;
+    width: 100%;
 }
