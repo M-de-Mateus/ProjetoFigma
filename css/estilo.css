@@ -67,7 +67,7 @@ div.flex div#caixa1 {
    
 #titulo1{
     width: 400px;
-    font-size: 1em;
+    font-size: 1.4em;
 }
 #imagem1 {
     /*border: 1px solid red;*/
@@ -204,7 +204,7 @@ footer {
 }
 
 
-@media (max-width: 1050px){
+@media (max-width: 1055px){
     *{
         overflow-x: hidden;
         text-align: center;
