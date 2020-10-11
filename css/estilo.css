@@ -57,7 +57,7 @@ div.flex {
 
 div.flex div#caixa1 {
     font-family: Oswald;
-    font-size: 2em;
+    font-size: 1.2em;
     color: white;
     /*border: 1px solid red;*/
     margin-left: 150px;
@@ -67,7 +67,7 @@ div.flex div#caixa1 {
    
 #titulo1{
     width: 400px;
-    font-size: 2em;
+    font-size: 1.2em;
 }
 #imagem1 {
     /*border: 1px solid red;*/
