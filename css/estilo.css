@@ -248,7 +248,8 @@ footer {
         font-size: 0.9em;
         margin-top: 90px;
         margin-bottom: 50px;
-        padding: 0;
+        padding: 5px;
+        box-sizing: border-box;
         
     }
 
@@ -264,6 +265,7 @@ footer {
         text-align: center;
         font-family: 'Roboto Condensed';
         font-size: 1.2em;
+        padding: 5px;
     }
 
     footer {
