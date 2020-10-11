@@ -41,8 +41,10 @@ body {
 nav li ul#logo {
     float: left;
     margin-left: 50px;
-    font-size: 30px;
+    font-size: 1.5em;
     margin-top: -10px;
+    padding-top: 5px;
+    box-sizing: border-box;
 }
 
 /*Conteudo*/
@@ -55,7 +57,7 @@ div.flex {
 
 div.flex div#caixa1 {
     font-family: Oswald;
-    font-size: 20px;
+    font-size: 1em;
     color: white;
     /*border: 1px solid red;*/
     margin-left: 150px;
@@ -88,7 +90,7 @@ div.flex div#titulo2 {
     /*border: 1px solid red;*/
     width: 400px;
     font-family: Roboto;
-    font-size: 25px;
+    font-size: 1.2em;
     margin-top: 90px;
     padding-right: 90px;
     margin-bottom: 30px;
@@ -100,7 +102,7 @@ div.flex div#titulo3 {
     /*border: 1px solid red;*/
     width: 400px;
     font-family: Roboto;
-    font-size: 25px;
+    font-size: 1.2em;
     margin-top: 90px;
     margin-bottom: 50px;
     
@@ -164,7 +166,7 @@ div.botão {
     line-height: 61px;
     font-family: 'Roboto Condensed';
     color: white;
-    font-size: 30px;
+    font-size: 1.5em;
     /*border: 1px solid red;*/
     margin-top: 20px;
 }
@@ -198,4 +200,76 @@ footer {
     font-family: 'Roboto Condensed';
     padding-top: 15px;
     width: 100%;
+}
+
+@media (max-width: 970px){
+    *{
+        overflow-x: hidden;
+        text-align: center;
+    }
+
+    img {
+        display: none;
+    }
+
+    div.flex {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    div.flex div#caixa1 {
+        font-family: Oswald;
+        font-size: 1em;
+        color: white;
+        /*border: 1px solid red;*/
+        margin-bottom: 50px;
+        margin: 0 auto;
+        
+    }
+
+    #titulo1{
+        width: 100%;
+    }
+    
+    div.flex div#titulo2 {
+        /*border: 1px solid red;*/
+        width: 100%;
+        font-family: Roboto;
+        font-size: 1em;    
+        padding: 0;
+    }
+
+    div.flex div#titulo3 {
+        /*border: 1px solid red;*/
+        width: 100%;
+        font-family: Roboto;
+        font-size: 1em;
+        margin-top: 90px;
+        margin-bottom: 50px;
+        padding: 0;
+        
+    }
+
+    div#down {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        margin-top: 100px;
+        margin-bottom: 50px;
+    }
+    
+    footer {
+        clear: both;
+        height: 60px;
+        background-color: #1A2B63;
+        color: white;
+        text-align: center;
+        font-family: 'Roboto Condensed';
+        padding-top: 15px;
+        width: 100%;
+        font-size: 0.9em;
+    }
+        
 }
