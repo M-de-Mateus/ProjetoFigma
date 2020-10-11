@@ -10,7 +10,7 @@ body {
 /*Menu*/
 #container1 {
     width: 100%;
-    height: 100px;
+    height: 200px;
     /*border: 1px solid red;*/
     margin: 0 auto;
     box-sizing: border-box;
@@ -202,12 +202,21 @@ footer {
     width: 100%;
 }
 
-@media (max-width: 970px){
+
+@media (max-width: 1048px){
     *{
         overflow-x: hidden;
         text-align: center;
     }
 
+    nav li ul#logo {
+        float: left;
+        margin-left: 50px;
+        font-size: 1.5em;
+        margin-top: -10px;
+        padding-top: 5px;
+        box-sizing: border-box;
+    }
     img {
         display: none;
     }
@@ -221,7 +230,7 @@ footer {
 
     div.flex div#caixa1 {
         font-family: Oswald;
-        font-size: 1em;
+        font-size: 1.5em;
         color: white;
         /*border: 1px solid red;*/
         margin-bottom: 50px;
@@ -237,28 +246,35 @@ footer {
         /*border: 1px solid red;*/
         width: 100%;
         font-family: Roboto;
-        font-size: 1em;    
-        padding: 0;
+        font-size: 1.2em;    
+        padding: 10px;
+        box-sizing: border-box;
     }
 
     div.flex div#titulo3 {
         /*border: 1px solid red;*/
         width: 100%;
         font-family: Roboto;
-        font-size: 0.9em;
+        font-size: 1.2em;
         margin-top: 90px;
         margin-bottom: 50px;
-        padding: 5px;
+        padding: 10px;
         box-sizing: border-box;
         
     }
 
     div#down {
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         justify-content: space-around;
         margin-top: 100px;
         margin-bottom: 50px;
+    }
+
+    div#down img {
+        display: inline-block;
+        width: 150px;
+        margin-top: 20px; 
     }
     
     div#download h2 {
@@ -279,5 +295,86 @@ footer {
         width: 100%;
         font-size: 0.9em;
     }
+
+    div#roxo {
+        height: 100%;
+        /*border: 1px solid red;*/
+        background-color: #1A2B63;
+        color: white;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-between;
+        font-family: Roboto;
+        align-items: center;
+        margin-bottom: 50px;
+        width: 100%;
+        padding-top: 20px;
         
+    }
+
+    .texto {
+        width: 180px;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    div#roxo img {
+        display: inline-block;
+        width: 150px;
+        
+    }
+}
+
+@media (max-width: 768px) {
+
+    #container1 nav li ul {
+        font-size: 1.2em;
+    }
+
+    nav li ul#logo {
+        float: left;
+        margin-left: 50px;
+        font-size: 2em;
+        margin-top: -10px;
+        padding-top: 5px;
+        box-sizing: border-box;
+    }
+    
+    div.flex div#caixa1 {
+        font-size: 1.5em;
+        
+    }
+
+    div.flex div#titulo2 {
+       font-size: 1.2em;
+       
+    }
+
+    div.flex div#titulo3 {
+        font-size: 1.2em;
+    
+    }
+
+    div#roxo {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+
+    }
+
+    div#roxo img {
+        display: inline-block;
+        width: 150px;
+        
+    }
+
+    div#down {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        margin-top: 100px;
+        margin-bottom: 50px;
+    }
+
 }
