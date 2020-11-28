@@ -5,19 +5,25 @@
 }
 /*Formatação body*/
 body {
-    background: url(../imagens/fundomenu.png) no-repeat, url(../imagens/listras.png);
-    background-size: 100%;
+    background: #F5F5F5;
     overflow-x: hidden;
 }
 
 /*Menu*/
+
+nav {
+    background: #5DC1D8;
+}
+
 #container1 {
     width: 100%;
-    height: 200px;
+    height: 50px;
+    padding: 20px;
     /*border: 1px solid red;*/
     margin: 0 auto;
     box-sizing: border-box;
     margin-bottom: 70px;
+    background: #5DC1D8;
     
 }
 
@@ -26,7 +32,7 @@ body {
     color: white;
     font-weight: bold;
     list-style: none;
-    margin-top: 50px;
+    margin-top: 0px;
     margin-right: 40px;
     
 }
@@ -48,75 +54,36 @@ nav li ul#logo {
     margin-top: -10px;
     padding-top: 5px;
     box-sizing: border-box;
+   
 }
 
 /*Conteudo*/
-div.flex {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: space-around;
-    }
 
-div.flex div#caixa1 {
-    font-family: Oswald;
-    color: white;
-    /*border: 1px solid red;*/
-    margin-left: 150px;
-    padding-bottom: 0px;
-    margin-bottom: 30px;
-}
-   
-#titulo1{
-    width: 400px;
-    font-size: 2.4em;
-}
-#imagem1 {
-    /*border: 1px solid red;*/
-    margin-top: -80px;
-    margin-bottom: 30px;
-       
-}
-
-#imagem2 {
-    /*border: 1px solid red;*/
-    margin-bottom: 30px;
-    
-}
-
-.subt1 {
+.titulo1 {
     text-align: center;
-}
-
-
-div.flex div#titulo2 {
-    /*border: 1px solid red;*/
-    width: 400px;
-    font-family: Roboto;
-    font-size: 1.2em;
-    margin-top: 90px;
-    padding-right: 90px;
-    margin-bottom: 30px;
+    font-family: 'Roboto Condensed';
     
 }
 
-
-div.flex div#titulo3 {
-    /*border: 1px solid red;*/
-    width: 400px;
+.informacao {
+    text-align: center;
     font-family: Roboto;
-    font-size: 1.2em;
-    margin-top: 90px;
-    margin-bottom: 50px;
-    
+    width: 80%;
+    margin: 0 auto;
+
 }
 
-#imagem3 {
-    /*border: 1px solid red;*/
-    margin-bottom: 50px;
-    margin-right: -50px;
+iframe {
+    margin-left: 30%;
 }
 
+li#maissobre {
+    list-style: none;
+}
+
+li#maissobre ul a {
+    color: black;
+}
 /*parte roxa*/
 
 div#roxo {
@@ -142,6 +109,10 @@ div#roxo {
 .texto {
     width: 180px;
     text-align: center;
+}
+
+div.informacao a {
+    color: black;
 }
 
 /*Downloads*/
