@@ -115,6 +115,21 @@ div.informacao a {
     color: black;
 }
 
+li#liquem {
+    list-style: none;
+    color: white;
+    font-family: 'Roboto Condensed';
+}
+
+div#divquem {
+    margin: 0 auto;
+    background-color: #1A2B63;
+    padding: 20px;
+    text-align: center;
+    width: 50%;
+}
+
+
 /*Downloads*/
 
 div#download h2 {
